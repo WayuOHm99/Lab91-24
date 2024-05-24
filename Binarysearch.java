@@ -1,10 +1,12 @@
 package Search;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Binarysearch {
     public static void main(String[] args) {
         int[] Number = {0, 11111, 22222, 33333, 44444, 55555, 66666, 77777, 88888, 99999};
+        Arrays.sort(Number);
         Scanner scanner = new Scanner(System.in);
         System.out.print("Search ID: ");
         int targetID = scanner.nextInt();
